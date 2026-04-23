@@ -1,0 +1,195 @@
+﻿{
+  "name": "Байтеке",
+  "gender": "male",
+  "type": "бала",
+  "children": [
+    {
+      "name": "Тоғызбай",
+      "gender": "male",
+      "type": "бала",
+      "children": [
+        {
+          "name": "Әлдеберлі",
+          "gender": "male",
+          "type": "бала",
+          "children": [
+            {
+              "name": "Кәдірберлі",
+              "gender": "male",
+              "type": "бала",
+              "children": [
+                {
+                  "name": "Шаймергеновтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Тасболатовтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Қожакиевтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Кәдірқұл",
+              "gender": "male",
+              "type": "бала",
+              "children": []
+            },
+            {
+              "name": "Құдайқұл",
+              "gender": "male",
+              "type": "бала",
+              "children": []
+            },
+            {
+              "name": "Мырзағұл",
+              "gender": "male",
+              "type": "бала",
+              "children": [
+                {
+                  "name": "Малай",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Жанай",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": [
+                    {
+                      "name": "Тұрсын",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": [
+                        {
+                          "name": "Шүрек",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Келдәулет",
+              "gender": "male",
+              "type": "бала",
+              "children": [
+                {
+                  "name": "Тановтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Мусиндер",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Рахметовтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Байтлеуовтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Жүкішевтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Құдайбергеновтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Айбас",
+              "gender": "male",
+              "type": "бала",
+              "children": [
+                {
+                  "name": "Темірбаевтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Мырзановтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Кәкошевтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Малдыбаевтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Сәдуовтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Қонысбаевтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Есетовтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Қожановтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Шағалақ",
+          "gender": "male",
+          "type": "бала",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
