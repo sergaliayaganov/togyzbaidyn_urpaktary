@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8" />
+<title>Шежірені қарау</title>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+
+#tree {
+  width: 100vw;
+  height: 100vh;
+}
+
+.node rect {
+  fill-opacity: 0.35;
+}
+
+.node text {
+  font-size: 14px;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.link {
+  fill: none;
+  stroke: #999;
+  stroke-width: 2;
+}
+</style>
+</head>
+
+<body>
+
+<svg id="tree"></svg>
+
+<script>
+
+// 🔥 SVG
+const svg = d3.select("#tree");
+const g = svg.append("g");
+
+svg.call(d3.zoom().on("zoom", e => g.attr("transform", e.transform)));
+
+let root;
+
+// 🔥 collapse
+function collapseAll(d, level = 0) {
+  if (d.children) {
+    if (level >= 1) {
+      d._children = d.children;
+      d._children.forEach(child => collapseAll(child, level + 1));
+      d.children = null;
+    } else {
+      d.children.forEach(child => collapseAll(child, level + 1));
+    }
+  }
+}
+
+// 🔥 JSON ОҚУ
+fetch('shezhire.json')
+  .then(res => res.json())
+  .then(data => {
+
+    root = d3.hierarchy(data);
+    collapseAll(root);
+
+    update();
+  });
+
+// toggle
+function toggle(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
+  }
+}
+
+// draw
+function update() {
+
+  g.selectAll("*").remove();
+
+  let maxLen = 0;
+  root.descendants().forEach(d => {
+    if (d.data.name.length > maxLen) maxLen = d.data.name.length;
+  });
+
+  const charWidth = 8;
+  const nodeWidth = Math.max(120, maxLen * charWidth + 40);
+  const nodeHeight = 40;
+
+  const treeLayout = d3.tree().nodeSize([80, nodeWidth + 120]);
+  treeLayout(root);
+
+  // link
+  g.selectAll(".link")
+    .data(root.links())
+    .enter()
+    .append("path")
+    .attr("class", "link")
+    .attr("d", d => {
+      const startX = d.source.y + nodeWidth / 2;
+      const startY = d.source.x;
+
+      const endX = d.target.y - nodeWidth / 2;
+      const endY = d.target.x;
+
+      const midX = (startX + endX) / 2;
+
+      return `
+        M${startX},${startY}
+        C${midX},${startY}
+         ${midX},${endY}
+         ${endX},${endY}
+      `;
+    });
+
+  // nodes
+  const nodes = g.selectAll(".node")
+    .data(root.descendants(), d => d.data.name);
+
+  const enter = nodes.enter()
+    .append("g")
+    .attr("class", "node")
+    .attr("transform", d => `translate(${d.y},${d.x})`)
+    .on("click", (event, d) => {
+      toggle(d);
+      update();
+    });
+
+  enter.append("rect")
+    .attr("x", -nodeWidth / 2)
+    .attr("y", -nodeHeight / 2)
+    .attr("width", nodeWidth)
+    .attr("height", nodeHeight)
+    .attr("rx", nodeHeight / 2)
+    .attr("fill", "#8bb7ff")
+    .attr("stroke", "#3b70d6")
+    .attr("stroke-width", 2);
+
+  enter.append("text")
+    .attr("text-anchor", "middle")
+    .attr("dy", "0.35em")
+    .text(d => d.data.name);
+
+  nodes.merge(enter)
+    .transition()
+    .attr("transform", d => `translate(${d.y},${d.x})`);
+}
+
+</script>
+
+</body>
+</html>
