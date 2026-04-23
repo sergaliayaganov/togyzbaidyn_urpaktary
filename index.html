@@ -31,6 +31,11 @@ nav button {
     background: #1abc9c;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background: #16a085;
 }
 
 section {
@@ -44,11 +49,16 @@ section {
 
 .tree ul {
     list-style-type: none;
+    padding-left: 20px;
 }
 
 .tree li {
     cursor: pointer;
     margin: 5px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
 }
 </style>
 
@@ -66,7 +76,7 @@ function toggle(el) {
     }
 }
 
-// счетчик
+// қаралу счетчигі
 let count = localStorage.getItem("views") || 0;
 count++;
 localStorage.setItem("views", count);
@@ -82,6 +92,7 @@ localStorage.setItem("views", count);
 
 <nav>
 <button onclick="showPage('home')">Басты бет</button>
+<button onclick="showPage('shezhire')">Шежіре</button>
 <button onclick="showPage('alash')">АЛАШ → БАЙТЕКЕ</button>
 <button onclick="showPage('aldeberli')">ӘЛДЕБЕРЛІ</button>
 <button onclick="showPage('shagalak')">ШАҒАЛАҚ</button>
@@ -96,11 +107,20 @@ localStorage.setItem("views", count);
 </p>
 
 <p>
-Қосымша ақпарат немесе қателер болса, осы номерге жазыңыз:
-<br><b>8-775-095-21-00</b>
+Қосымша ақпарат немесе қателер болса:
+<br><b>8-775-095-21-00</b> нөміріне жазыңыз.
 </p>
 
 <p>Қаралу саны: <b><script>document.write(count)</script></b></p>
+</section>
+
+<!-- Шежіре -->
+<section id="shezhire">
+<h2>Шежіре</h2>
+<p>
+Бұл бөлімде толық шежіре жинақталады.
+Кейін барлық ұрпақтар толық енгізіледі.
+</p>
 </section>
 
 <!-- АЛАШ -->
@@ -111,8 +131,8 @@ localStorage.setItem("views", count);
 <ul>
 <li onclick="toggle(this)">АЛАШ
     <ul style="display:none">
-        <li onclick="toggle(this)">Сейілхан</li>
-        <li onclick="toggle(this)">Жайлыған</li>
+        <li>Сейілхан</li>
+        <li>Жайлыған</li>
     </ul>
 </li>
 </ul>
@@ -129,8 +149,8 @@ localStorage.setItem("views", count);
     <ul style="display:none">
         <li onclick="toggle(this)">ТОҒЫЗБАЙ
             <ul style="display:none">
-                <li onclick="toggle(this)">ӘЛДЕБЕРЛІ</li>
-                <li onclick="alert('Бұл жерде Әлдеберлінің ұрпақтары таратылған. Шағалақтың ұрпақтары батырмасын бас.')">ШАҒАЛАҚ</li>
+                <li>ӘЛДЕБЕРЛІ</li>
+                <li onclick="alert('Бұл жерде Әлдеберлінің ұрпақтары таратылған. Шағалақ бөліміне өтіңіз.')">ШАҒАЛАҚ</li>
             </ul>
         </li>
     </ul>
@@ -149,8 +169,8 @@ localStorage.setItem("views", count);
     <ul style="display:none">
         <li onclick="toggle(this)">ТОҒЫЗБАЙ
             <ul style="display:none">
-                <li onclick="alert('Бұл жерде Шағалақтың ұрпақтары таратылған. Әлдеберлі батырмасын бас.')">ӘЛДЕБЕРЛІ</li>
-                <li onclick="toggle(this)">ШАҒАЛАҚ</li>
+                <li onclick="alert('Бұл жерде Шағалақтың ұрпақтары таратылған. Әлдеберлі бөліміне өтіңіз.')">ӘЛДЕБЕРЛІ</li>
+                <li>ШАҒАЛАҚ</li>
             </ul>
         </li>
     </ul>
