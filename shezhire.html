@@ -2,17 +2,38 @@
 <html lang="kk">
 <head>
 <meta charset="UTF-8" />
-<title>Шежіре</title>
+<title>Шежірені қарау</title>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
 <style>
-body { margin:0; font-family:Arial; background:#f2f2f2; overflow:hidden;}
-#tree {width:100vw; height:100vh;}
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f2f2f2;
+  overflow: hidden;
+}
 
-.node rect {fill-opacity:0.35; stroke-width:2; cursor:pointer;}
-.node text {font-size:14px; font-weight:bold; pointer-events:none;}
-.link {fill:none; stroke:#999; stroke-width:2;}
+#tree {
+  width: 100vw;
+  height: 100vh;
+}
+
+.node rect {
+  fill-opacity: 0.35;
+}
+
+.node text {
+  font-size: 14px;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.link {
+  fill: none;
+  stroke: #999;
+  stroke-width: 2;
+}
 </style>
 </head>
 
@@ -22,93 +43,121 @@ body { margin:0; font-family:Arial; background:#f2f2f2; overflow:hidden;}
 
 <script>
 
-let data = null;
-
+// 🔥 SVG
 const svg = d3.select("#tree");
 const g = svg.append("g");
 
 svg.call(d3.zoom().on("zoom", e => g.attr("transform", e.transform)));
 
-// collapse / expand
-function toggle(d){
-  if(d.children){ d._children=d.children; d.children=null; }
-  else if(d._children){ d.children=d._children; d._children=null; }
+let root;
+
+// 🔥 collapse
+function collapseAll(d, level = 0) {
+  if (d.children) {
+    if (level >= 1) {
+      d._children = d.children;
+      d._children.forEach(child => collapseAll(child, level + 1));
+      d.children = null;
+    } else {
+      d.children.forEach(child => collapseAll(child, level + 1));
+    }
+  }
 }
 
-// width
-function getNodeWidth(node){
-  let maxLen = 0;
-  function traverse(d){
-    if(d.name?.length > maxLen) maxLen = d.name.length;
-    if(d.children) d.children.forEach(traverse);
-    if(d._children) d._children.forEach(traverse);
+// 🔥 JSON ОҚУ
+fetch('shezhire.json')
+  .then(res => res.json())
+  .then(data => {
+
+    root = d3.hierarchy(data);
+    collapseAll(root);
+
+    update();
+  });
+
+// toggle
+function toggle(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
   }
-  traverse(node);
-  return Math.max(120, maxLen*9 + 40);
 }
 
 // draw
-function update(){
-  if(!data) return;
+function update() {
 
   g.selectAll("*").remove();
 
-  const nodeWidth = getNodeWidth(data);
+  let maxLen = 0;
+  root.descendants().forEach(d => {
+    if (d.data.name.length > maxLen) maxLen = d.data.name.length;
+  });
+
+  const charWidth = 8;
+  const nodeWidth = Math.max(120, maxLen * charWidth + 40);
   const nodeHeight = 40;
-  const radius = nodeHeight/2;
 
-  const root = d3.hierarchy(data, d => d.children);
-  d3.tree().nodeSize([80, nodeWidth+80])(root);
+  const treeLayout = d3.tree().nodeSize([80, nodeWidth + 120]);
+  treeLayout(root);
 
-  // links
+  // link
   g.selectAll(".link")
     .data(root.links())
     .enter()
     .append("path")
-    .attr("class","link")
-    .attr("d", d=>{
-      const sx=d.source.y+nodeWidth/2, sy=d.source.x;
-      const ex=d.target.y-nodeWidth/2, ey=d.target.x;
-      const mx=(sx+ex)/2;
-      return `M${sx},${sy} C${mx},${sy} ${mx},${ey} ${ex},${ey}`;
+    .attr("class", "link")
+    .attr("d", d => {
+      const startX = d.source.y + nodeWidth / 2;
+      const startY = d.source.x;
+
+      const endX = d.target.y - nodeWidth / 2;
+      const endY = d.target.x;
+
+      const midX = (startX + endX) / 2;
+
+      return `
+        M${startX},${startY}
+        C${midX},${startY}
+         ${midX},${endY}
+         ${endX},${endY}
+      `;
     });
 
   // nodes
-  const node = g.selectAll(".node")
-    .data(root.descendants())
-    .enter()
+  const nodes = g.selectAll(".node")
+    .data(root.descendants(), d => d.data.name);
+
+  const enter = nodes.enter()
     .append("g")
-    .attr("class","node")
-    .attr("transform", d=>`translate(${d.y},${d.x})`)
-    .on("click",(e,d)=>{ toggle(d.data); update(); });
+    .attr("class", "node")
+    .attr("transform", d => `translate(${d.y},${d.x})`)
+    .on("click", (event, d) => {
+      toggle(d);
+      update();
+    });
 
-  node.append("rect")
-    .attr("x",-nodeWidth/2)
-    .attr("y",-nodeHeight/2)
-    .attr("width",nodeWidth)
-    .attr("height",nodeHeight)
-    .attr("rx",radius)
-    .attr("fill","#8bb7ff")
-    .attr("stroke","#3b70d6");
+  enter.append("rect")
+    .attr("x", -nodeWidth / 2)
+    .attr("y", -nodeHeight / 2)
+    .attr("width", nodeWidth)
+    .attr("height", nodeHeight)
+    .attr("rx", nodeHeight / 2)
+    .attr("fill", "#8bb7ff")
+    .attr("stroke", "#3b70d6")
+    .attr("stroke-width", 2);
 
-  node.append("text")
-    .attr("text-anchor","middle")
-    .attr("dy",5)
-    .text(d=>d.data.name);
+  enter.append("text")
+    .attr("text-anchor", "middle")
+    .attr("dy", "0.35em")
+    .text(d => d.data.name);
+
+  nodes.merge(enter)
+    .transition()
+    .attr("transform", d => `translate(${d.y},${d.x})`);
 }
-
-// 🔥 JSON автомат жүктеу
-async function loadJSON(){
-  try{
-    const res = await fetch("shezhire.json");
-    data = await res.json();
-    update();
-  }catch(e){
-    console.log("shezhire.json табылмады");
-  }
-}
-
-loadJSON();
 
 </script>
 
