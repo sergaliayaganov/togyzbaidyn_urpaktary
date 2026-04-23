@@ -1,10 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="kk">
 <head>
-    <title>Менің сайтам</title>
+<meta charset="UTF-8">
+<title>Байтекенің Тоғызбайының ұрпақтары</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: #1abc9c;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    display: none;
+    padding: 20px;
+}
+
+.active {
+    display: block;
+}
+
+.tree ul {
+    list-style-type: none;
+}
+
+.tree li {
+    cursor: pointer;
+    margin: 5px;
+}
+</style>
+
+<script>
+function showPage(id) {
+    let sections = document.querySelectorAll("section");
+    sections.forEach(sec => sec.classList.remove("active"));
+    document.getElementById(id).classList.add("active");
+}
+
+function toggle(el) {
+    let child = el.querySelector("ul");
+    if (child) {
+        child.style.display = child.style.display === "none" ? "block" : "none";
+    }
+}
+
+// счетчик
+let count = localStorage.getItem("views") || 0;
+count++;
+localStorage.setItem("views", count);
+</script>
+
 </head>
+
 <body>
-    <h1>Тоғызбайдың ұрпақтары</h1>
-    <p>Бұл менің жаңа сайтым</p>
+
+<header>
+<h1>Байтекенің Тоғызбайының ұрпақтары</h1>
+</header>
+
+<nav>
+<button onclick="showPage('home')">Басты бет</button>
+<button onclick="showPage('alash')">АЛАШ → БАЙТЕКЕ</button>
+<button onclick="showPage('aldeberli')">ӘЛДЕБЕРЛІ</button>
+<button onclick="showPage('shagalak')">ШАҒАЛАҚ</button>
+</nav>
+
+<!-- Басты бет -->
+<section id="home" class="active">
+<h2>Жалпы шежіре туралы</h2>
+<p>
+Бұл шежіре ата-бабалардан ауызша және жазбаша түрде жеткізілген.
+Жинақтауға үлес қосқан азаматтарға алғыс білдіреміз.
+</p>
+
+<p>
+Қосымша ақпарат немесе қателер болса, осы номерге жазыңыз:
+<br><b>8-775-095-21-00</b>
+</p>
+
+<p>Қаралу саны: <b><script>document.write(count)</script></b></p>
+</section>
+
+<!-- АЛАШ -->
+<section id="alash">
+<h2>АЛАШ-тан БАЙТЕКЕ-ге дейін</h2>
+
+<div class="tree">
+<ul>
+<li onclick="toggle(this)">АЛАШ
+    <ul style="display:none">
+        <li onclick="toggle(this)">Сейілхан</li>
+        <li onclick="toggle(this)">Жайлыған</li>
+    </ul>
+</li>
+</ul>
+</div>
+</section>
+
+<!-- ӘЛДЕБЕРЛІ -->
+<section id="aldeberli">
+<h2>ӘЛДЕБЕРЛІ-нің ұрпақтары</h2>
+
+<div class="tree">
+<ul>
+<li onclick="toggle(this)">БАЙТЕКЕ
+    <ul style="display:none">
+        <li onclick="toggle(this)">ТОҒЫЗБАЙ
+            <ul style="display:none">
+                <li onclick="toggle(this)">ӘЛДЕБЕРЛІ</li>
+                <li onclick="alert('Бұл жерде Әлдеберлінің ұрпақтары таратылған. Шағалақтың ұрпақтары батырмасын бас.')">ШАҒАЛАҚ</li>
+            </ul>
+        </li>
+    </ul>
+</li>
+</ul>
+</div>
+</section>
+
+<!-- ШАҒАЛАҚ -->
+<section id="shagalak">
+<h2>ШАҒАЛАҚ-тың ұрпақтары</h2>
+
+<div class="tree">
+<ul>
+<li onclick="toggle(this)">БАЙТЕКЕ
+    <ul style="display:none">
+        <li onclick="toggle(this)">ТОҒЫЗБАЙ
+            <ul style="display:none">
+                <li onclick="alert('Бұл жерде Шағалақтың ұрпақтары таратылған. Әлдеберлі батырмасын бас.')">ӘЛДЕБЕРЛІ</li>
+                <li onclick="toggle(this)">ШАҒАЛАҚ</li>
+            </ul>
+        </li>
+    </ul>
+</li>
+</ul>
+</div>
+</section>
+
 </body>
 </html>
