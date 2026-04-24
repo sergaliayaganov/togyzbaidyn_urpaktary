@@ -54,7 +54,7 @@ let root;
 // collapse
 function collapseAll(d, level = 0) {
   if (d.children) {
-    if (level >= 1) {
+    if (level >= 2) {
       d._children = d.children;
       d._children.forEach(child => collapseAll(child, level + 1));
       d.children = null;
