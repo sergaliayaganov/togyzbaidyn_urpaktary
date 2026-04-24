@@ -135,9 +135,15 @@ function update() {
     .attr("class", "node")
     .attr("transform", d => `translate(${d.y},${d.x})`)
     .on("click", (event, d) => {
-      toggle(d);
-      update();
-    });
+
+  if (d.data.name === "Шағалақ") {
+    alert("Бұл бөлімде Әлдеберлінің ұрпақтары таратылған");
+    return;
+  }
+
+  toggle(d);
+  update();
+});
 
   // 🔥 RECT (жыныс + жиен логикасы)
   enter.append("rect")
