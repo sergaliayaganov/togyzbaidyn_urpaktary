@@ -24,12 +24,12 @@ header {
 .marquee {
     display: inline-block;
     white-space: nowrap;
-    animation: moveText 10s linear infinite;
+    animation: moveText 6s linear infinite alternate;
 }
 
 @keyframes moveText {
-    from { transform: translateX(100%); }
-    to { transform: translateX(-100%); }
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100%); }
 }
 
 /* Навигация */
@@ -117,8 +117,7 @@ localStorage.setItem("views", count);
 
 <!-- Басты бет -->
 <section id="home" class="active">
-<h2>Қош келдіңіз!</h2>
-<p>Бұл сайт Байтекенің Тоғызбайының ұрпақтарына арналған.</p>
+<h2 class="marquee">Қош келдіңіз! Бұл сайт Байтекенің Тоғызбайының ұрпақтарына арналған.</h2>
 </section>
 
 <!-- ЖАҢА БӨЛІМ -->
