@@ -8,11 +8,10 @@
 body {
     font-family: Arial;
     margin: 0;
-    background: url('Тауағаш.jpg') no-repeat center center fixed;
-    background-size: cover;
     color: #000;
 }
 
+/* Header */
 header {
     background: rgba(44, 62, 80, 0.9);
     color: white;
@@ -33,6 +32,7 @@ header {
     to { transform: translateX(-100%); }
 }
 
+/* Навигация */
 nav {
     background: rgba(52, 73, 94, 0.9);
     padding: 10px;
@@ -53,27 +53,19 @@ nav button:hover {
     background: #16a085;
 }
 
+/* Бөлімдер */
 section {
     display: none;
     padding: 20px;
+    min-height: 500px;
+
+    /* ФОН ОСЫНДА */
+    background: url('Тауағаш.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .active {
     display: block;
-}
-
-.tree ul {
-    list-style-type: none;
-    padding-left: 20px;
-}
-
-.tree li {
-    cursor: pointer;
-    margin: 5px;
-    background: rgba(255,255,255,0.9);
-    padding: 5px;
-    border-radius: 5px;
-    display: inline-block;
 }
 
 /* Төменгі панель */
@@ -97,13 +89,6 @@ function showPage(id) {
     document.getElementById(id).classList.add("active");
 }
 
-function toggle(el) {
-    let child = el.querySelector("ul");
-    if (child) {
-        child.style.display = child.style.display === "none" ? "block" : "none";
-    }
-}
-
 // қаралу счетчигі
 let count = localStorage.getItem("views") || 0;
 count++;
@@ -120,13 +105,24 @@ localStorage.setItem("views", count);
 
 <nav>
 <button onclick="showPage('home')">Басты бет</button>
+
+<!-- ЖАҢА КНОПКА -->
+<button onclick="showPage('about')">Жалпы шежіре туралы</button>
+
 <button onclick="location.href='shezhire.html'">Шежіре</button>
 <button onclick="location.href='alash.html'">АЛАШ-тан БАЙТЕКЕ-ге дейін</button>
 <button onclick="location.href='aldeberli.html'">ӘЛДЕБЕРЛІ-нің ұрпақтары</button>
 <button onclick="location.href='sagalaq.html'">ШАҒАЛАҚ-тың ұрпақтары</button>
 </nav>
 
+<!-- Басты бет -->
 <section id="home" class="active">
+<h2>Қош келдіңіз!</h2>
+<p>Бұл сайт Байтекенің Тоғызбайының ұрпақтарына арналған.</p>
+</section>
+
+<!-- ЖАҢА БӨЛІМ -->
+<section id="about">
 <h2>Жалпы шежіре туралы</h2>
 <p>
 Бұл шежіре ата-бабалардан ауызша және жазбаша түрде жеткізілген.
@@ -156,7 +152,7 @@ localStorage.setItem("views", count);
         Қаралу саны: <b><script>document.write(count)</script></b>
     </div>
     <div>
-        Егер адамның аттарында қате кеткен болса және басқа да ұрпақтарын енгізу үшін 87750952100 ватсапқа жазыңдар, міндетті түрде өзгерістер енгізіледі
+        Егер адамның аттарында қате кеткен болса және басқа да ұрпақтарын енгізу үшін 87750952100 ватсапқа жазыңдар
     </div>
 </div>
 
