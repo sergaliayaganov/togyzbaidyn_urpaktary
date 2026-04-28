@@ -58,8 +58,6 @@ section {
     display: none;
     padding: 20px;
     min-height: 500px;
-
-    /* ФОН ОСЫНДА */
     background: url('Тауағаш.jpg') no-repeat center center;
     background-size: cover;
 }
@@ -68,17 +66,29 @@ section {
     display: block;
 }
 
-/* Төменгі панель */
+/* 🔥 ТҮЗЕТІЛГЕН FOOTER */
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.85);
     color: white;
+
     display: flex;
+    flex-wrap: wrap;        /* МАҢЫЗДЫ */
     justify-content: space-between;
-    padding: 10px 20px;
+
+    padding: 10px 15px;
     font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* мәтіндер толық көріну үшін */
+.footer div {
+    flex: 1;
+    min-width: 250px;
+    word-wrap: break-word;
+    padding: 5px;
 }
 </style>
 
@@ -89,7 +99,6 @@ function showPage(id) {
     document.getElementById(id).classList.add("active");
 }
 
-// қаралу счетчигі
 let count = localStorage.getItem("views") || 0;
 count++;
 localStorage.setItem("views", count);
@@ -105,49 +114,30 @@ localStorage.setItem("views", count);
 
 <nav>
 <button onclick="showPage('home')">Басты бет</button>
-
-<!-- ЖАҢА КНОПКА -->
 <button onclick="showPage('about')">Жалпы шежіре туралы</button>
-
 <button onclick="location.href='shezhire.html'">Шежіре</button>
 <button onclick="location.href='alash.html'">АЛАШ-тан БАЙТЕКЕ-ге дейін</button>
 <button onclick="location.href='aldeberli.html'">ӘЛДЕБЕРЛІ-нің ұрпақтары</button>
 <button onclick="location.href='sagalaq.html'">ШАҒАЛАҚ-тың ұрпақтары</button>
 </nav>
 
-<!-- Басты бет -->
 <section id="home" class="active">
 <h4 class="marquee" style="color: #FF4C4C;">
 Қош келдіңіз! Бұл сайт Байтекенің Тоғызбайының ұрпақтарына арналған.
 </h4>
 </section>
 
-<!-- ЖАҢА БӨЛІМ -->
 <section id="about">
 <h2>Жалпы шежіре туралы</h2>
-<p>
-Бұл шежіре ата-бабалардан ауызша және жазбаша түрде жеткізілген.
-Жинақтауға үлес қосқан азаматтарға алғыс білдіреміз.
-</p>
+<p>Бұл шежіре ата-бабалардан ауызша және жазбаша түрде жеткізілген.</p>
 </section>
 
-<section id="shezhire">
-<h2>Шежіре</h2>
-</section>
+<section id="shezhire"></section>
+<section id="alash"></section>
+<section id="aldeberli"></section>
+<section id="shagalak"></section>
 
-<section id="alash">
-<h2>АЛАШ-тан БАЙТЕКЕ-ге дейін</h2>
-</section>
-
-<section id="aldeberli">
-<h2>ӘЛДЕБЕРЛІ-нің ұрпақтары</h2>
-</section>
-
-<section id="shagalak">
-<h2>ШАҒАЛАҚ-тың ұрпақтары</h2>
-</section>
-
-<!-- Төменгі панель -->
+<!-- FOOTER -->
 <div class="footer">
     <div>
         Қаралу саны: <b><script>document.write(count)</script></b>
