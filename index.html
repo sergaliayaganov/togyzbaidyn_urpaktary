@@ -22,14 +22,22 @@ header {
 
 /* Жылжымалы текст */
 .marquee {
-    display: inline-block;
-    white-space: nowrap;
-    animation: moveText 6s linear infinite alternate;
+    display: flex;
+    justify-content: center;   /* ОРТАҒА */
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
 }
 
+.marquee span {
+    display: inline-block;
+    animation: moveText 4s ease-in-out infinite alternate;
+}
+
+/* ТЕК ОРТАДА КІШКЕНЕ ҚОЗҒАЛАДЫ */
 @keyframes moveText {
-    from { transform: translateX(-100%); }
-    to { transform: translateX(100%); }
+    0%   { transform: translateX(-40px); }
+    100% { transform: translateX(40px); }
 }
 
 /* Навигация */
@@ -123,7 +131,7 @@ localStorage.setItem("views", count);
 
 <section id="home" class="active">
 <h4 class="marquee" style="color: #FF4C4C;">
-Қош келдіңіз! Бұл сайт Байтекенің Тоғызбайының ұрпақтарына арналған.
+    <span>Қош келдіңіз! Бұл сайт Байтекенің Тоғызбайының ұрпақтарына арналған.</span>
 </h4>
 </section>
 
