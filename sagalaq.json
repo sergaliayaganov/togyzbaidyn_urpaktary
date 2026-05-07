@@ -157,6 +157,7 @@
                 {"name":"Биғайша","gender":"female","type":"бала","children":[]}]},
               {"name":"Жұсып","gender":"male","type":"бала","children":[
                 {"name":"Үмітбай","gender":"male","type":"бала","children":[
+                  {"name":"Ғазез","gender":"male","type":"бала","children":[]},
                   {"name":"Бибіш","gender":"female","type":"бала","children":[]},
                   {"name":"Рыспай","gender":"male","type":"бала","children":[
                     {"name":"Абай","gender":"male","type":"бала","children":[
