@@ -366,7 +366,7 @@
                                                                                                                                                           "type": "бала",
                                                                                                                                                           "children": [
                                                                                                                                                             {
-                                                                                                                                                              "name": "Байтеке",
+                                                                                                                                                              "name": "Бәйтеке",
                                                                                                                                                               "gender": "male",
                                                                                                                                                               "type": "бала",
                                                                                                                                                               "children": [
@@ -1536,6 +1536,12 @@
                                                                                                                                                                                               "gender": "male",
                                                                                                                                                                                               "type": "бала",
                                                                                                                                                                                               "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                  "name": "Ғазез",
+                                                                                                                                                                                                  "gender": "male",
+                                                                                                                                                                                                  "type": "бала",
+                                                                                                                                                                                                  "children": []
+                                                                                                                                                                                                },
                                                                                                                                                                                                 {
                                                                                                                                                                                                   "name": "Бибіш",
                                                                                                                                                                                                   "gender": "female",
