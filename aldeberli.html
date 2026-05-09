@@ -47,9 +47,20 @@ body {
 const svg = d3.select("#tree");
 const g = svg.append("g");
 
-svg.call(d3.zoom().on("zoom", e => g.attr("transform", e.transform)));
+const startX = 150;
+const startY = window.innerHeight / 2;
 
-let root;
+const zoom = d3.zoom().on("zoom", e => {
+  g.attr("transform", e.transform);
+});
+
+svg.call(zoom);
+
+// бастапқы позиция
+svg.call(
+  zoom.transform,
+  d3.zoomIdentity.translate(startX, startY)
+);
 
 // collapse
 function collapseAll(d, level = 0) {
