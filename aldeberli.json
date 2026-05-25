@@ -1,0 +1,1975 @@
+﻿{
+  "name": "Бәйтеке",
+  "gender": "male",
+  "type": "бала",
+  "children": [
+    {
+      "name": "Тоғызбай",
+      "gender": "male",
+      "type": "бала",
+      "children": [
+        {
+          "name": "Әлдеберлі",
+          "gender": "male",
+          "type": "бала",
+          "children": [
+            {
+              "name": "Кәдірберлі",
+              "gender": "male",
+              "type": "бала",
+              "children": [
+                {
+                  "name": "Шәймергеновтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Тасболатовтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Қожақиевтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Кәдірқұл",
+              "gender": "male",
+              "type": "бала",
+              "children": []
+            },
+            {
+              "name": "Құдайқұл",
+              "gender": "male",
+              "type": "бала",
+              "children": []
+            },
+            {
+              "name": "Мырзағұл",
+              "gender": "male",
+              "type": "бала",
+              "children": [
+                {
+                  "name": "Малай",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": [
+                    {
+                      "name": "Бөбетай (Байтеке)",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": [
+                        {
+                          "name": "Балхаш",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": [
+                            {
+                              "name": "Меңдеке",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Ағжан",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Күзембай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Қали",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Ғалым",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Қалқаман",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Қалел",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Жұртыбай",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": []
+                                },
+                                {
+                                  "name": "Үмітбай",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Ләйлә",
+                                      "gender": "female",
+                                      "type": "бала",
+                                      "children": []
+                                    },
+                                    {
+                                      "name": "Римма",
+                                      "gender": "female",
+                                      "type": "бала",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Қойшыбай",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Еркін",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Сейітжан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Ескендір",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Нұрлан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Сайран",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Ерғали",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Қанат",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Қайрат",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Алпыс",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Жангелді",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": []
+                                    },
+                                    {
+                                      "name": "Амангелді",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Тілеке",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Сұраған",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Сарыбай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Серік",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Сүйіндік",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Сансызбай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Еламан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Еділ",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Ерлан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Жаңбырбай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Берік",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Кәрібай",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Тілеміс",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": []
+                            },
+                            {
+                              "name": "Нұрқамыс",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Қисық (Қасым)",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Жанай",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": [
+                    {
+                      "name": "Тұрсын",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": [
+                        {
+                          "name": "Көшімбай",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": []
+                        },
+                        {
+                          "name": "Бекболат",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": [
+                            {
+                              "name": "Шорман",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Шынтемір",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Тұрғын",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Бексұлтан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Қабдолла",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Шәмәрән",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Қабдөш",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Қайыркелді",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Қайыржан",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Әлібек",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Әнуар",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Қайрат",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Талғат",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Ерболат",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Жанат",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Марат",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Дүйсенбі",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Бөлдіген",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Шүрек",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": [
+                            {
+                              "name": "Мұратбек",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Жәнібек",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Азықан",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Мәрияш",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Гүлшара (Күлшә)",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Нұрмұқан",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Жылқыбай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Қайрат",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Сандуғаш",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Қарлығаш",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Қайдар",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Еркін",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Арайлым",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Томирис",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Ерік",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Айдана",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Айдын",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Айнұр",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Алдияр",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Мадияр",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Берік",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Серік",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Қазыбек",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Қазыбай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Қалқаман",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Мұхтар",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Айнаш",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Шоқан",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Мұқаш",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Айжан",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Инеш",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Жаңылсын",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Жеңіс",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Жазерке",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Жаңбырбай",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Дулат",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Қозыбай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Рүстем",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Бірлік",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Назгүл",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Қайрат",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Қанат",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Талғат",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Алма",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Салтанат",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Шағырай",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Әсем",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Қайыржан",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Ақмарал",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Нұрболат",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Бекболат",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Серік",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Бауыржан",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Кенел",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Зәуреш",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Шекер",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Орман",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Айна",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Қуаныш",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Бейбіт",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Раушан",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Кебек",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Бибігүл",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Ерлан",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Сембай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Дәрикө",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Әскерай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Гүлстан",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Марал",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Зикө",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Бақыт",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Римма",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Бақтыбай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Гүлнұр",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Нұргүл",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Еренғайып",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Рамазан",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Ғани",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Гүлден",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Кенжебай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Орал",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Саян",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Алтын",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Даулет",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Гүлнар",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Алма",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Ноян",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Әсем",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Зарина",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Эмир",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Дамир",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Сайран",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Бейбіт",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Арман",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Индира",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Сауле",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Бакыт",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Жанат",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Лаура",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Жасұлан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Жанар",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Жадыра",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Азамат",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Сана",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Жансая",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Абылайхан",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Әлихан",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Әсия",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Жұлдыз",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Дана",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Шәйін",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Еркеұлан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Алмас",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Ақнәзік",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Ақтілек",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Айбар",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Асыл",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Іңкәр",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Інжу",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Айзере",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Ақарыс",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Гүлмира",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Арай",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Бейбарыс",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Бекарыс",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Айару",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Аружан",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Ербол",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Алданыш",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Айнаш",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Ернар",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Эльмира",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Ерсін",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Нұрай",
+                                                  "gender": "female",
+                                                  "type": "бала",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Айсұлтан",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Жазира",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Есілбай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Назым",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Алтай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Ботакөз",
+                                              "gender": "female",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Әбілмәжін",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Олжабай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Сайлау",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Сәкен",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Әсет",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Марат",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Амангелді",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            },
+                                            {
+                                              "name": "Бейбіт",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Серік",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Сәду",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Жұмағали",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Сағынбай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Самырат",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Қуандық",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Баян",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Жаксыбай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Амандық",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Ағыбай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Амангелді",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Арман",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Жолдыбай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Алтай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Асқар",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Серік",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Әсет",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Кемел",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Нұрсұлтан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Асылбек",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Дәулет",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Балғабай (Бәкөш)",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Бағлан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Махаббат",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Наурызбай",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Есендік",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Тастемір",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Есенбай",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Елімжан",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Руслан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Жасұлан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Мақсат",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Ғалымжан",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Сабыртай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Самархан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Есімжан",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Мәншүк",
+                                          "gender": "female",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Қожахмет",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Нұрсила",
+                                      "gender": "female",
+                                      "type": "бала",
+                                      "children": []
+                                    },
+                                    {
+                                      "name": "Ермек",
+                                      "gender": "female",
+                                      "type": "бала",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Бөргелтай",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": [
+                            {
+                              "name": "Қыдырма",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Көкібай",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Бейсен",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Қара",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Рамазан",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Бітік",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": []
+                    },
+                    {
+                      "name": "Шал",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": [
+                        {
+                          "name": "Өзбек",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": [
+                            {
+                              "name": "Балғожа",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Бәйке",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Оспан",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Ермек",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Орынбай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Асқар",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Асхат",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Төлеген",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Боранбай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Қайырбай",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Қайыр",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Болат",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Мұрат",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Төлебай",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Боқтан",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": [
+                            {
+                              "name": "Байғожа",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": []
+                            },
+                            {
+                              "name": "Тай",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Мейрам",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": []
+                                },
+                                {
+                                  "name": "Мағау",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Амангелді",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Қыстаубай",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Сапар",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": []
+                                },
+                                {
+                                  "name": "Әубакір",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Келдәулет",
+              "gender": "male",
+              "type": "бала",
+              "children": [
+                {
+                  "name": "Мусиндар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Рахметовтер",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Тановтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Құдайбергеновтер",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Байтілеуовтер",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Жүкішевтер",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Айбас",
+              "gender": "male",
+              "type": "бала",
+              "children": [
+                {
+                  "name": "Темірбаев",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Мырзанов",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Кәкөшев",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Малдыбаев",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Сәдуов",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Қонысбаев",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Есетов",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Қожановтар",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Шағалақ",
+          "gender": "male",
+          "type": "бала",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
