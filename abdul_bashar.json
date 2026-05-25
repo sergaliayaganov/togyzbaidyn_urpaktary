@@ -1,0 +1,1022 @@
+{
+  "name": "Абул Башар (Адам ата)",
+  "gender": "male",
+  "type": "бала",
+  "children": [
+    {
+      "name": "Шиш",
+      "gender": "male",
+      "type": "бала",
+      "children": [
+        {
+          "name": "Едірес",
+          "gender": "male",
+          "type": "бала",
+          "children": [
+            {
+              "name": "Нух",
+              "gender": "male",
+              "type": "бала",
+              "children": [
+                {
+                  "name": "Кам",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                },
+                {
+                  "name": "Сам",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": [
+                    {
+                      "name": "Арбағы",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": []
+                    },
+                    {
+                      "name": "Арғон",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": []
+                    },
+                    {
+                      "name": "Ашрап",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": []
+                    },
+                    {
+                      "name": "Арпақшыт",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": []
+                    },
+                    {
+                      "name": "Арым",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": []
+                    },
+                    {
+                      "name": "Ғайбар",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": [
+                        {
+                          "name": "Шарғы",
+                          "gender": "male",
+                          "type": "бала",
+                          "children": [
+                            {
+                              "name": "Хайдар",
+                              "gender": "male",
+                              "type": "бала",
+                              "children": [
+                                {
+                                  "name": "Ғалидж",
+                                  "gender": "male",
+                                  "type": "бала",
+                                  "children": [
+                                    {
+                                      "name": "Ағипет",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": []
+                                    },
+                                    {
+                                      "name": "Рағубек",
+                                      "gender": "male",
+                                      "type": "бала",
+                                      "children": [
+                                        {
+                                          "name": "Бағулан",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": []
+                                        },
+                                        {
+                                          "name": "Шарух",
+                                          "gender": "male",
+                                          "type": "бала",
+                                          "children": [
+                                            {
+                                              "name": "Нахор",
+                                              "gender": "male",
+                                              "type": "бала",
+                                              "children": [
+                                                {
+                                                  "name": "Араз",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": [
+                                                    {
+                                                      "name": "Ибраһим",
+                                                      "gender": "male",
+                                                      "type": "бала",
+                                                      "children": [
+                                                        {
+                                                          "name": "Хамза",
+                                                          "gender": "male",
+                                                          "type": "бала",
+                                                          "children": [
+                                                            {
+                                                              "name": "Парсы",
+                                                              "gender": "male",
+                                                              "type": "бала",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Исмағұл",
+                                                          "gender": "male",
+                                                          "type": "бала",
+                                                          "children": [
+                                                            {
+                                                              "name": "Торан",
+                                                              "gender": "male",
+                                                              "type": "бала",
+                                                              "children": [
+                                                                {
+                                                                  "name": "Араб",
+                                                                  "gender": "male",
+                                                                  "type": "бала",
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Ысқақ",
+                                                          "gender": "male",
+                                                          "type": "бала",
+                                                          "children": [
+                                                            {
+                                                              "name": "Күрал",
+                                                              "gender": "male",
+                                                              "type": "бала",
+                                                              "children": [
+                                                                {
+                                                                  "name": "Күрді",
+                                                                  "gender": "male",
+                                                                  "type": "бала",
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Жақып",
+                                                          "gender": "male",
+                                                          "type": "бала",
+                                                          "children": [
+                                                            {
+                                                              "name": "Ибни Амин",
+                                                              "gender": "male",
+                                                              "type": "бала",
+                                                              "children": [
+                                                                {
+                                                                  "name": "Мүлкі",
+                                                                  "gender": "male",
+                                                                  "type": "бала",
+                                                                  "children": [
+                                                                    {
+                                                                      "name": "Түрік",
+                                                                      "gender": "male",
+                                                                      "type": "бала",
+                                                                      "children": [
+                                                                        {
+                                                                          "name": "Хаһан",
+                                                                          "gender": "male",
+                                                                          "type": "бала",
+                                                                          "children": [
+                                                                            {
+                                                                              "name": "Тұғар",
+                                                                              "gender": "male",
+                                                                              "type": "бала",
+                                                                              "children": []
+                                                                            },
+                                                                            {
+                                                                              "name": "Скиф",
+                                                                              "gender": "male",
+                                                                              "type": "бала",
+                                                                              "children": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Қандар",
+                                                                          "gender": "male",
+                                                                          "type": "бала",
+                                                                          "children": [
+                                                                            {
+                                                                              "name": "Ауған",
+                                                                              "gender": "male",
+                                                                              "type": "бала",
+                                                                              "children": []
+                                                                            },
+                                                                            {
+                                                                              "name": "Тәжік",
+                                                                              "gender": "male",
+                                                                              "type": "бала",
+                                                                              "children": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Хайдар",
+                                                                          "gender": "male",
+                                                                          "type": "бала",
+                                                                          "children": [
+                                                                            {
+                                                                              "name": "Толуыт",
+                                                                              "gender": "male",
+                                                                              "type": "бала",
+                                                                              "children": [
+                                                                                {
+                                                                                  "name": "Бақтрия",
+                                                                                  "gender": "male",
+                                                                                  "type": "бала",
+                                                                                  "children": []
+                                                                                },
+                                                                                {
+                                                                                  "name": "Армия",
+                                                                                  "gender": "male",
+                                                                                  "type": "бала",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "name": "Азһам",
+                                                                                      "gender": "male",
+                                                                                      "type": "бала",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "name": "Ақырып",
+                                                                                          "gender": "male",
+                                                                                          "type": "бала",
+                                                                                          "children": []
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Аққап",
+                                                                                          "gender": "male",
+                                                                                          "type": "бала",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "name": "Табиғы",
+                                                                                              "gender": "male",
+                                                                                              "type": "бала",
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "name": "Қас",
+                                                                                                  "gender": "male",
+                                                                                                  "type": "бала",
+                                                                                                  "children": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Сақ",
+                                                                                                  "gender": "male",
+                                                                                                  "type": "бала",
+                                                                                                  "children": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Масақ",
+                                                                                                  "gender": "male",
+                                                                                                  "type": "бала",
+                                                                                                  "children": []
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "name": "Табиғат",
+                                                                                              "gender": "male",
+                                                                                              "type": "бала",
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "name": "Сағит",
+                                                                                                  "gender": "male",
+                                                                                                  "type": "бала",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "name": "Бозхан",
+                                                                                                      "gender": "male",
+                                                                                                      "type": "бала",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "name": "Сабыр",
+                                                                                                          "gender": "male",
+                                                                                                          "type": "бала",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "name": "Асхен",
+                                                                                                              "gender": "male",
+                                                                                                              "type": "бала",
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "name": "Палуан Садық",
+                                                                                                                  "gender": "male",
+                                                                                                                  "type": "бала",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "name": "Рүстем",
+                                                                                                                      "gender": "male",
+                                                                                                                      "type": "бала",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "name": "Мәлікхан",
+                                                                                                                          "gender": "male",
+                                                                                                                          "type": "бала",
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "name": "Ескендір",
+                                                                                                                              "gender": "male",
+                                                                                                                              "type": "бала",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "name": "Оғыз",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "name": "Сағади",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": [
+                                                                                                                                        {
+                                                                                                                                          "name": "Дестем",
+                                                                                                                                          "gender": "male",
+                                                                                                                                          "type": "бала",
+                                                                                                                                          "children": [
+                                                                                                                                            {
+                                                                                                                                              "name": "Асқап",
+                                                                                                                                              "gender": "male",
+                                                                                                                                              "type": "бала",
+                                                                                                                                              "children": [
+                                                                                                                                                {
+                                                                                                                                                  "name": "Асығат",
+                                                                                                                                                  "gender": "male",
+                                                                                                                                                  "type": "бала",
+                                                                                                                                                  "children": [
+                                                                                                                                                    {
+                                                                                                                                                      "name": "Ғази",
+                                                                                                                                                      "gender": "male",
+                                                                                                                                                      "type": "бала",
+                                                                                                                                                      "children": [
+                                                                                                                                                        {
+                                                                                                                                                          "name": "Наурыз",
+                                                                                                                                                          "gender": "male",
+                                                                                                                                                          "type": "бала",
+                                                                                                                                                          "children": [
+                                                                                                                                                            {
+                                                                                                                                                              "name": "Әнсары",
+                                                                                                                                                              "gender": "male",
+                                                                                                                                                              "type": "бала",
+                                                                                                                                                              "children": [
+                                                                                                                                                                {
+                                                                                                                                                                  "name": "Ғажам",
+                                                                                                                                                                  "gender": "male",
+                                                                                                                                                                  "type": "бала",
+                                                                                                                                                                  "children": [
+                                                                                                                                                                    {
+                                                                                                                                                                      "name": "Әнес",
+                                                                                                                                                                      "gender": "male",
+                                                                                                                                                                      "type": "бала",
+                                                                                                                                                                      "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                          "name": "Жабал",
+                                                                                                                                                                          "gender": "male",
+                                                                                                                                                                          "type": "бала",
+                                                                                                                                                                          "children": [
+                                                                                                                                                                            {
+                                                                                                                                                                              "name": "Мағаз",
+                                                                                                                                                                              "gender": "male",
+                                                                                                                                                                              "type": "бала",
+                                                                                                                                                                              "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                  "name": "Саһил",
+                                                                                                                                                                                  "gender": "male",
+                                                                                                                                                                                  "type": "бала",
+                                                                                                                                                                                  "children": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                      "name": "Халиф",
+                                                                                                                                                                                      "gender": "male",
+                                                                                                                                                                                      "type": "бала",
+                                                                                                                                                                                      "children": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                          "name": "Ақшолпан",
+                                                                                                                                                                                          "gender": "male",
+                                                                                                                                                                                          "type": "бала",
+                                                                                                                                                                                          "children": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                              "name": "Аққурай",
+                                                                                                                                                                                              "gender": "male",
+                                                                                                                                                                                              "type": "бала",
+                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                  "name": "Аламан",
+                                                                                                                                                                                                  "gender": "male",
+                                                                                                                                                                                                  "type": "бала",
+                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "Марат",
+                                                                                                                                                                                                      "gender": "male",
+                                                                                                                                                                                                      "type": "бала",
+                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "Мадат",
+                                                                                                                                                                                                      "gender": "male",
+                                                                                                                                                                                                      "type": "бала",
+                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                          "name": "Ажат",
+                                                                                                                                                                                                          "gender": "male",
+                                                                                                                                                                                                          "type": "бала",
+                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                              "name": "Медет",
+                                                                                                                                                                                                              "gender": "male",
+                                                                                                                                                                                                              "type": "бала",
+                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                  "name": "Өзбек",
+                                                                                                                                                                                                                  "gender": "male",
+                                                                                                                                                                                                                  "type": "бала",
+                                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                      "name": "Баулы",
+                                                                                                                                                                                                                      "gender": "male",
+                                                                                                                                                                                                                      "type": "бала",
+                                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                  ]
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                              ]
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                          ]
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                      ]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "Мадан",
+                                                                                                                                                                                                      "gender": "male",
+                                                                                                                                                                                                      "type": "бала",
+                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "Сейіл",
+                                                                                                                                                                                                      "gender": "male",
+                                                                                                                                                                                                      "type": "бала",
+                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "Бұхар",
+                                                                                                                                                                                                      "gender": "male",
+                                                                                                                                                                                                      "type": "бала",
+                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "name": "АЛАШ",
+                                                                                                                                                                                                      "gender": "male",
+                                                                                                                                                                                                      "type": "бала",
+                                                                                                                                                                                                      "children": []
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                  ]
+                                                                                                                                                                                                },
+                                                                                                                                                                                                {
+                                                                                                                                                                                                  "name": "Алан",
+                                                                                                                                                                                                  "gender": "male",
+                                                                                                                                                                                                  "type": "бала",
+                                                                                                                                                                                                  "children": []
+                                                                                                                                                                                                }
+                                                                                                                                                                                              ]
+                                                                                                                                                                                            }
+                                                                                                                                                                                          ]
+                                                                                                                                                                                        }
+                                                                                                                                                                                      ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                  ]
+                                                                                                                                                                                }
+                                                                                                                                                                              ]
+                                                                                                                                                                            }
+                                                                                                                                                                          ]
+                                                                                                                                                                        }
+                                                                                                                                                                      ]
+                                                                                                                                                                    }
+                                                                                                                                                                  ]
+                                                                                                                                                                }
+                                                                                                                                                              ]
+                                                                                                                                                            }
+                                                                                                                                                          ]
+                                                                                                                                                        }
+                                                                                                                                                      ]
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                      "name": "Ғамзат",
+                                                                                                                                                      "gender": "male",
+                                                                                                                                                      "type": "бала",
+                                                                                                                                                      "children": []
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                      "name": "Абдулмұрат",
+                                                                                                                                                      "gender": "male",
+                                                                                                                                                      "type": "бала",
+                                                                                                                                                      "children": []
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                      "name": "Қазы",
+                                                                                                                                                      "gender": "male",
+                                                                                                                                                      "type": "бала",
+                                                                                                                                                      "children": []
+                                                                                                                                                    }
+                                                                                                                                                  ]
+                                                                                                                                                }
+                                                                                                                                              ]
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Қыпшақ",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Ахтан",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "name": "Мадияр",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Хатмараз",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "name": "Татар",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Қырғыз",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Жақұт",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Хакас",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Алтай",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Шор",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Тува",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Мәжуси",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Гаккаша",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "name": "Балқар",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Ғаббас",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "name": "Күлтегін",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Моғол",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Аббас",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "name": "Бадахшан",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Иесудан",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Жаныс",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "name": "Забидек",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "name": "Меркіт",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Хасан",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Қанжар ата",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "name": "Түрікпен",
+                                                                                                                                      "gender": "male",
+                                                                                                                                      "type": "бала",
+                                                                                                                                      "children": []
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                              "name": "Есіләм",
+                                                                                                                              "gender": "male",
+                                                                                                                              "type": "бала",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "name": "Газына",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "name": "Ерхан",
+                                                                                                                          "gender": "male",
+                                                                                                                          "type": "бала",
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "name": "Гагауыз",
+                                                                                                                              "gender": "male",
+                                                                                                                              "type": "бала",
+                                                                                                                              "children": []
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                              "name": "Ташауыз",
+                                                                                                                              "gender": "male",
+                                                                                                                              "type": "бала",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "name": "Дағыстан",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Шеркес",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Абхаз",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Аджар",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Құмық",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Адыгей",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Таулен",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Лезгин",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Қарашай",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "name": "Әсет",
+                                                                                                                                  "gender": "male",
+                                                                                                                                  "type": "бала",
+                                                                                                                                  "children": []
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "name": "Түргеш",
+                                                                                                                      "gender": "male",
+                                                                                                                      "type": "бала",
+                                                                                                                      "children": []
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "name": "Қарпық",
+                                                                                                                      "gender": "male",
+                                                                                                                      "type": "бала",
+                                                                                                                      "children": []
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Печенег",
+                                                                                                                  "gender": "male",
+                                                                                                                  "type": "бала",
+                                                                                                                  "children": []
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Бұлғар",
+                                                                                                                  "gender": "male",
+                                                                                                                  "type": "бала",
+                                                                                                                  "children": []
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Тау",
+                                                                                                                  "gender": "male",
+                                                                                                                  "type": "бала",
+                                                                                                                  "children": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Сапар",
+                                                                                                          "gender": "male",
+                                                                                                          "type": "бала",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "name": "Салджук",
+                                                                                                              "gender": "male",
+                                                                                                              "type": "бала",
+                                                                                                              "children": []
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Хазар",
+                                                                                                          "gender": "male",
+                                                                                                          "type": "бала",
+                                                                                                          "children": []
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Азар",
+                                                                                                          "gender": "male",
+                                                                                                          "type": "бала",
+                                                                                                          "children": []
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Албан",
+                                                                                                          "gender": "male",
+                                                                                                          "type": "бала",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "name": "Азербайжан-Қарабах",
+                                                                                                              "gender": "male",
+                                                                                                              "type": "бала",
+                                                                                                              "children": []
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "name": "Гун",
+                                                                                                      "gender": "male",
+                                                                                                      "type": "бала",
+                                                                                                      "children": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "name": "Сарман",
+                                                                                                      "gender": "male",
+                                                                                                      "type": "бала",
+                                                                                                      "children": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Сағдат",
+                                                                                          "gender": "male",
+                                                                                          "type": "бала",
+                                                                                          "children": []
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "name": "Парфиян",
+                                                                                      "gender": "male",
+                                                                                      "type": "бала",
+                                                                                      "children": []
+                                                                                    },
+                                                                                    {
+                                                                                      "name": "Массағет",
+                                                                                      "gender": "male",
+                                                                                      "type": "бала",
+                                                                                      "children": []
+                                                                                    },
+                                                                                    {
+                                                                                      "name": "Соғдин",
+                                                                                      "gender": "male",
+                                                                                      "type": "бала",
+                                                                                      "children": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Қараджа",
+                                                  "gender": "male",
+                                                  "type": "бала",
+                                                  "children": [
+                                                    {
+                                                      "name": "Ассир",
+                                                      "gender": "male",
+                                                      "type": "бала",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "name": "Ғұрат",
+                                                      "gender": "male",
+                                                      "type": "бала",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "name": "Понт",
+                                                      "gender": "male",
+                                                      "type": "бала",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "name": "Ағылан",
+                                                      "gender": "male",
+                                                      "type": "бала",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Шарық",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": []
+                    },
+                    {
+                      "name": "Тарақ",
+                      "gender": "male",
+                      "type": "бала",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Япыш",
+                  "gender": "male",
+                  "type": "бала",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Едірей",
+          "gender": "male",
+          "type": "бала",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
