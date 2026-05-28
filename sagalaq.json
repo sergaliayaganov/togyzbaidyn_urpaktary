@@ -310,6 +310,7 @@
                     {"name":"Әсел","gender":"female","type":"бала","children":[]},   
                     {"name":"Абзал","gender":"male","type":"бала","children":[
                       {"name":"Әлихан","gender":"male","type":"бала","children":[]}]},
+                    {"name":"Жадра","gender":"female","type":"бала","children":[]},
                     {"name":"Әсет","gender":"male","type":"бала","children":[
                       {"name":"Әділет","gender":"male","type":"бала","children":[]},
                       {"name":"Құрмет","gender":"male","type":"бала","children":[]},
