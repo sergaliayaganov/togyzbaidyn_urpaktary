@@ -19,6 +19,35 @@ body {
   height: 100vh;
 }
 
+/* BUTTONS */
+#buttons{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1000;
+}
+
+#buttons button{
+  padding:10px 18px;
+  margin-right:10px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+  box-shadow:0 2px 6px rgba(0,0,0,.2);
+}
+
+.homeBtn{
+  background:#4CAF50;
+  color:white;
+}
+
+.backBtn{
+  background:#ff9800;
+  color:white;
+}
+
 .node rect {
   fill-opacity: 0.35;
 }
@@ -39,30 +68,42 @@ body {
 
 <body>
 
+<div id="buttons">
+  <button class="homeBtn" onclick="goHome()">🏠 Үйге</button>
+  <button class="backBtn" onclick="undoAction()">↩ Артқа</button>
+</div>
+
 <svg id="tree"></svg>
 
 <script>
 
-// SVG
 const svg = d3.select("#tree");
 const g = svg.append("g");
 
 const startX = 150;
 const startY = window.innerHeight / 2;
 
+let root;
+let historyStack = [];
+
+// HOME
+function goHome(){
+  window.location.href="https://sergaliayaganov.github.io/togyzbaidyn_urpaktary/";
+}
+
+// ZOOM
 const zoom = d3.zoom().on("zoom", e => {
   g.attr("transform", e.transform);
 });
 
 svg.call(zoom);
 
-// бастапқы позиция
 svg.call(
   zoom.transform,
   d3.zoomIdentity.translate(startX, startY)
 );
 
-// collapse
+// COLLAPSE
 function collapseAll(d, level = 0) {
   if (d.children) {
     if (level >= 2) {
@@ -73,6 +114,54 @@ function collapseAll(d, level = 0) {
       d.children.forEach(child => collapseAll(child, level + 1));
     }
   }
+}
+
+// SAVE TREE STATE
+function serializeTree(node){
+  return {
+    name: node.data.name,
+    children: node.children ? node.children.map(serializeTree) : null,
+    _children: node._children ? node._children.map(serializeTree) : null
+  };
+}
+
+// RESTORE TREE STATE
+function restoreTree(saved,node){
+
+  if(saved.children){
+    node.children=node.children||node._children||[];
+    node._children=null;
+
+    for(let i=0;i<saved.children.length;i++){
+      restoreTree(saved.children[i],node.children[i]);
+    }
+
+  }else if(saved._children){
+
+    node._children=node.children||node._children||[];
+    node.children=null;
+
+    for(let i=0;i<saved._children.length;i++){
+      restoreTree(saved._children[i],node._children[i]);
+    }
+  }
+}
+
+// SAVE ACTION
+function saveState(){
+  historyStack.push(JSON.stringify(serializeTree(root)));
+}
+
+// UNDO
+function undoAction(){
+
+  if(historyStack.length===0) return;
+
+  const previous = JSON.parse(historyStack.pop());
+
+  restoreTree(previous,root);
+
+  update();
 }
 
 // JSON оқу
@@ -112,7 +201,7 @@ function update() {
   const treeLayout = d3.tree().nodeSize([80, nodeWidth + 120]);
   treeLayout(root);
 
-  // 🔥 LINKS (жиен болса алтын)
+  // LINKS
   g.selectAll(".link")
     .data(root.links())
     .enter()
@@ -147,36 +236,31 @@ function update() {
     .attr("transform", d => `translate(${d.y},${d.x})`)
     .on("click", (event, d) => {
 
-  if (d.data.name === "Шағалақ") {
-    alert("Бұл бөлімде Әлдеберлінің ұрпақтары таратылған");
-    return;
-  }
+      if (d.data.name === "Шағалақ") {
+        alert("Бұл бөлімде Әлдеберлінің ұрпақтары таратылған");
+        return;
+      }
 
-  toggle(d);
-  update();
-});
+      saveState();   // <-- тарихқа сақтау
 
-  // 🔥 RECT (жыныс + жиен логикасы)
+      toggle(d);
+      update();
+    });
+
   enter.append("rect")
     .attr("x", -nodeWidth / 2)
     .attr("y", -nodeHeight / 2)
     .attr("width", nodeWidth)
     .attr("height", nodeHeight)
     .attr("rx", nodeHeight / 2)
-
-    // ішкі түс (gender)
     .attr("fill", d =>
       d.data.gender === "female" ? "#f7a6c6" : "#8bb7ff"
     )
-
-    // шекара (type + gender)
     .attr("stroke", d =>
       d.data.type === "жиен"
         ? "gold"
         : (d.data.gender === "female" ? "#d95380" : "#3b70d6")
     )
-
-    // қалыңдық
     .attr("stroke-width", d =>
       d.data.type === "жиен" ? 4 : 2
     );
