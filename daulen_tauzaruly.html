@@ -6,6 +6,11 @@
     <title>Керей шежіресі</title>
 
     <style>
+
+function goHome(){
+  window.location.href = "https://sergaliayaganov.github.io/togyzbaidyn_urpaktary/";
+}
+        
         body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
@@ -72,6 +77,28 @@ footer {
     font-size: 14px;
 }
 
+#buttons{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1000;
+}
+
+#buttons button{
+  padding:10px 18px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+  box-shadow:0 2px 6px rgba(0,0,0,.2);
+}
+
+.homeBtn{
+  background:#4CAF50;
+  color:white;
+}
+
         @media (max-width: 768px) {
             .container {
                 width: 95%;
@@ -86,6 +113,10 @@ footer {
 </head>
 
 <body>
+
+<div id="buttons">
+  <button class="homeBtn" onclick="goHome()">🏠 Үйге</button>
+</div>
 
     <header>
         <h1>Керей шежіресі</h1>
