@@ -63,6 +63,28 @@
       font-size: 15px;
     }
 
+    #buttons{
+  position: fixed;
+  top: 18px;
+  left: 65px;
+  z-index: 1000;
+}
+
+#buttons button{
+  padding:10px 18px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+  box-shadow:0 2px 6px rgba(0,0,0,.2);
+}
+
+.homeBtn{
+  background:#4CAF50;
+  color:white;
+}
+
     @media (max-width: 768px) {
       .card {
         padding: 25px;
@@ -80,9 +102,13 @@
   </style>
 </head>
 <body>
+
+<div id="buttons">
+  <button class="homeBtn" onclick="goHome()">🏠 Үйге</button>
+</div>
+
 <div class="container">
-    <div class="card">
-        <h2>Жалпы шежіре туралы</h2>
+<h2>Жалпы шежіре туралы</h2>
 <div class="highlight">
         «Жеті атасын білу – әр қазақтың парызы»
       </div>
@@ -113,8 +139,14 @@
       </div>
   </div>
   <footer>
-    © 2026 Ашамайлы Керей Шежіресі | Рухани мұра
-  </footer>
+  © 2026 Ашамайлы Керей Шежіресі | Рухани мұра
+</footer>
+
+<script>
+function goHome(){
+  window.location.href = "https://sergaliayaganov.github.io/togyzbaidyn_urpaktary/";
+}
+</script>
 
 </body>
 </html>
