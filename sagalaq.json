@@ -100,7 +100,9 @@
                         {"name":"Әлия","gender":"female","type":"жиен","children":[]}]}]},
                     {"name":"Ерік","gender":"male","type":"бала","children":[
                       {"name":"Жанна","gender":"female","type":"бала","children":[]},
-                      {"name":"Дария","gender":"female","type":"бала","children":[]}]},
+                      {"name":"Дария","gender":"female","type":"бала","children":[
+                        {"name":"Диана","gender":"female","type":"жиен","children":[]},
+                        {"name":"София","gender":"female","type":"жиен","children":[]}]}]},
                     {"name":"Бағдат","gender":"male","type":"бала","children":[
                       {"name":"Алтынай","gender":"female","type":"бала","children":[]}]},
                     {"name":"Саят","gender":"male","type":"бала","children":[]},
