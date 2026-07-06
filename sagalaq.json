@@ -63,7 +63,7 @@
                     {"name":"Қуаныш","gender":"male","type":"бала","children":[
                       {"name":"Әмір","gender":"male","type":"бала","children":[]}]},
                     {"name":"Әсел","gender":"female","type":"бала","children":[
-                      {"name":"Дамир","gender":"male","type":"жиен","children":[]}]},
+                      {"name":"Дамир","gender":"male","type":"жиен","children":[]}]}]},
                   {"name":"Сабира","gender":"female","type":"бала","children":[
                     {"name":"Дәулет","gender":"male","type":"жиен","children":[]},
                     {"name":"Шәкен","gender":"male","type":"жиен","children":[]},
@@ -101,8 +101,8 @@
                     {"name":"Ерік","gender":"male","type":"бала","children":[
                       {"name":"Жанна","gender":"female","type":"бала","children":[]},
                       {"name":"Дария","gender":"female","type":"бала","children":[
-                       {"name":"Диана","gender":"female","type":"жиен","children":[]}
-                       {"name":"София","gender":"female","type":"жиен","children":[]}]}]},
+                        {"name":"Диана","gender":"female","type":"жиен","children":[]}
+                        {"name":"София","gender":"female","type":"жиен","children":[]}]}]},
                     {"name":"Бағдат","gender":"male","type":"бала","children":[
                       {"name":"Алтынай","gender":"female","type":"бала","children":[]}]},
                     {"name":"Саят","gender":"male","type":"бала","children":[]},
