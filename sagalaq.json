@@ -568,42 +568,6 @@
                 {"name":"Қоспан","gender":"male","type":"бала","children":[]}]}]}]}]}]},
       {"name":"Айдаралы","gender":"male","type":"бала","children":[]},
       {"name":"Рыспай","gender":"male","type":"бала","children":[
-        {"name":"Айтбай","gender":"male","type":"бала","children":[
-          {"name":"Ақсақал","gender":"male","type":"бала","children":[
-            {"name":"Жомарт","gender":"male","type":"бала","children":[
-              {"name":"Көбен","gender":"male","type":"бала","children":[
-                {"name":"Бәйгөн","gender":"male","type":"бала","children":[
-                  {"name":"Бәкібай","gender":"male","type":"бала","children":[
-                    {"name":"Асқар","gender":"male","type":"бала","children":[
-                      {"name":"Алтынбек","gender":"male","type":"бала","children":[
-                        {"name":"Нұрай","gender":"female","type":"бала","children":[]},
-                        {"name":"Нарұл","gender":"male","type":"бала","children":[]}]},
-                      {"name":"Мейрамбек","gender":"male","type":"бала","children":[]},
-                      {"name":"Нұрлыбек","gender":"male","type":"бала","children":[
-                        {"name":"Аяна","gender":"female","type":"бала","children":[]}]}]},
-                    {"name":"Нығымет","gender":"male","type":"бала","children":[
-                      {"name":"Нұрым","gender":"male","type":"бала","children":[]}]}]}]},
-                {"name":"Нұрым","gender":"male","type":"бала","children":[
-                  {"name":"Еркебай","gender":"male","type":"бала","children":[
-                    {"name":"Асқар","gender":"male","type":"бала","children":[]},
-                    {"name":"Айбар","gender":"male","type":"бала","children":[]}]},
-                  {"name":"Балтабай","gender":"male","type":"бала","children":[]},
-                  {"name":"Аманжол","gender":"male","type":"бала","children":[
-                    {"name":"Шалабай","gender":"male","type":"бала","children":[]},
-                    {"name":"Аманбол","gender":"male","type":"бала","children":[]}]}]},
-                {"name":"Бәйіш","gender":"male","type":"бала","children":[]}]}]},
-            {"name":"Мыңжасар","gender":"male","type":"бала","children":[
-              {"name":"Кәсен","gender":"male","type":"бала","children":[
-                {"name":"Темірғали","gender":"male","type":"бала","children":[
-                  {"name":"Қайдар","gender":"male","type":"бала","children":[
-                    {"name":"Медет","gender":"male","type":"бала","children":[]},
-                    {"name":"Шоқан","gender":"male","type":"бала","children":[
-                      {"name":"Төрехан","gender":"male","type":"бала","children":[]},
-                      {"name":"Анеля","gender":"female","type":"бала","children":[]},
-                      {"name":"Хантөре","gender":"male","type":"бала","children":[]}]}]}]},
-                {"name":"Нұрғали","gender":"male","type":"бала","children":[]},
-                {"name":"Жақсылық","gender":"male","type":"бала","children":[]},
-                {"name":"Қоспан","gender":"male","type":"бала","children":[]}]}]}]}]},
         {"name":"Жартыбай","gender":"male","type":"бала","children":[
           {"name":"Құспай","gender":"male","type":"бала","children":[
             {"name":"Бекболат","gender":"male","type":"бала","children":[
