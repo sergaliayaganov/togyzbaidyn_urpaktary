@@ -2,7 +2,7 @@
   {"name":"Тоғызбай","gender":"male","type":"бала","children":[
     {"name":"Әлдеберлі","gender":"male","type":"бала","children":[]},
     {"name":"Шағалақ","gender":"male","type":"бала","children":[
-      {"name":"Жиеналы","gender":"male","type":"бала","children":[
+      {"name":"Жиенәлі","gender":"male","type":"бала","children":[
         {"name":"Есенбай","gender":"male","type":"бала","children":[
           {"name":"Бердібек","gender":"male","type":"бала","children":[
             {"name":"Аяпберген","gender":"male","type":"бала","children":[
