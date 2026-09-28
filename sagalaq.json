@@ -43,7 +43,8 @@
                       {"name":"Илияс","gender":"male","type":"бала","children":[]},
                       {"name":"Амина","gender":"female","type":"бала","children":[]}]},
                     {"name":"Ерлан","gender":"male","type":"бала","children":[
-                      {"name":"Айлана","gender":"female","type":"бала","children":[]}]}]},
+                      {"name":"Айлана","gender":"female","type":"бала","children":[]},
+                      {"name":"Алдияр","gender":"male","type":"бала","children":[]}]}]},
                   {"name":"Бәку","gender":"male","type":"бала","children":[
                     {"name":"Динара","gender":"female","type":"бала","children":[
                       {"name":"Мәди","gender":"male","type":"жиен","children":[]},
