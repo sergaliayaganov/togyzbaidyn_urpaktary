@@ -363,7 +363,8 @@
                   {"name":"Болат","gender":"male","type":"бала","children":[
                     {"name":"Ақерке","gender":"female","type":"бала","children":[
                       {"name":"Рамазан","gender":"male","type":"жиен","children":[]},
-                      {"name":"Ғани","gender":"male","type":"жиен","children":[]}]},
+                      {"name":"Ғани","gender":"male","type":"жиен","children":[]},
+                      {"name":"Ақниет","gender":"female","type":"жиен","children":[]}]},
                     {"name":"Дархан","gender":"male","type":"бала","children":[
                       {"name":"Әлем","gender":"male","type":"бала","children":[]}]}]},
                   {"name":"Ләзәт","gender":"female","type":"бала","children":[]},
